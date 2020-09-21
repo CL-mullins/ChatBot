@@ -1,0 +1,5 @@
+This python program creates a formative chatbox experience for the user 
+in the python terminal. The user will be prompted to enter a command and the
+chatbot will respond based on pre-formatted responses set in different lists 
+and libraries.
+
