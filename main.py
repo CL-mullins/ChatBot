@@ -25,7 +25,7 @@ def get_chatbot_response(user_response):
 
 
 
-print("Welcome to Chatbot!")
+print("Welcome to Weatherbot!")
 print("I will tell you what you should wear based on the weahter!")
 
 
