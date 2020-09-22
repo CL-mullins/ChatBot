@@ -9,6 +9,8 @@ def get_chatbot_response(user_response):
                         "Seems like a good day for some coffee!"]
     bot_response_rainy = ["It's raining today? Remember to bring an umbrella!", "Rainy weather calls for some jazz music and coffee, but most importantly, an umbrella",
                         "Remember to bring an umbrella and some boots!"]
+    bot_response_snowy = ["It's snowy today? Better bring your boots!","Snowy day today huh? Better schedule some time to shovel the driveway",
+                        "Snowy weather means that it's time to dress in layers"]
 
     if user_response == "sunny":
             return choice(bot_response_sunny)
@@ -16,6 +18,8 @@ def get_chatbot_response(user_response):
             return choice(bot_response_cloudy)
     if user_response == "rainy":
             return choice(bot_response_rainy)
+    if user_response == "snowy":
+            return choice(bot_response_snowy)
     else:
             return "No matter what, you can have a good day today!"
 
