@@ -27,6 +27,8 @@ def get_chatbot_response(user_response):
 
 print("Welcome to Weatherbot!")
 print("I will tell you what you should wear based on the weather!")
+user_name = input("First, what is your name?\n")
+print(user_name + " , nice to meet you!")
 
 
 
